@@ -86,4 +86,4 @@ if (commands) commands.run(bot, message, args, options);
 
 
 
-bot.login(process.env.token);
+bot.login(NzM2NTczNzU3NDU5NzkxOTQy.XxwxxA.DDJG1lJInAuPXhSBvuGiDsEkpos);
