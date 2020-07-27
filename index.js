@@ -7,6 +7,7 @@ const axios = require('axios')
 const client = new discord.Client();
 const superagent = require("superagent");
 const { SSL_OP_SSLEAY_080_CLIENT_DH_BUG } = require('constants');
+const token = process.env.TOKEN;
 
 const bot = new discord.Client();
 bot.commands = new discord.Collection();
@@ -84,6 +85,5 @@ if (commands) commands.run(bot, message, args, options);
 
 
 
-const token = process.env.TOKEN;
 
 bot.login(token);
